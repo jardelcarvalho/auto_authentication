@@ -1,0 +1,318 @@
+{
+	"id": "9e00d839-c378-d182-77b6-db3635cb6ef2",
+	"name": "Login_UFSJ",
+	"description": "",
+	"order": [
+		"020f9786-b9d6-9e55-6dc7-4468fb439f08",
+		"955a3ffc-7b80-dd0f-5aa0-7771affe1d26",
+		"e91bb5c7-fb0c-45f1-40be-db9d2a9aff77",
+		"cf834f84-b895-f8ad-f2d2-3d999a0fab95",
+		"576c3ae8-2316-1746-0961-40f0e17076cf"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1570218358292,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "020f9786-b9d6-9e55-6dc7-4468fb439f08",
+			"headers": "Upgrade-Insecure-Requests: 1\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36\nSec-Fetch-Mode: navigate\nSec-Fetch-User: ?1\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\n",
+			"headerData": [
+				{
+					"key": "Upgrade-Insecure-Requests",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "User-Agent",
+					"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Sec-Fetch-Mode",
+					"value": "navigate",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Sec-Fetch-User",
+					"value": "?1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://fwctan.ufsj.edu.br:1003/logout?06090306090e000b",
+			"queryParams": [
+				{
+					"key": "06090306090e000b",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9e00d839-c378-d182-77b6-db3635cb6ef2",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://fwctan.ufsj.edu.br:1003/logout?06090306090e000b",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570218424009,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "576c3ae8-2316-1746-0961-40f0e17076cf",
+			"headers": "Upgrade-Insecure-Requests: 1\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\n",
+			"headerData": [
+				{
+					"key": "Upgrade-Insecure-Requests",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "User-Agent",
+					"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://www.gstatic.com/generate_204",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9e00d839-c378-d182-77b6-db3635cb6ef2",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://www.gstatic.com/generate_204",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570218398332,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "955a3ffc-7b80-dd0f-5aa0-7771affe1d26",
+			"headers": "Origin: https://fwctan.ufsj.edu.br:1003\nUpgrade-Insecure-Requests: 1\nContent-Type: application/x-www-form-urlencoded\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36\nSec-Fetch-Mode: navigate\nSec-Fetch-User: ?1\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\n",
+			"headerData": [
+				{
+					"key": "Origin",
+					"value": "https://fwctan.ufsj.edu.br:1003",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Upgrade-Insecure-Requests",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "User-Agent",
+					"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Sec-Fetch-Mode",
+					"value": "navigate",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Sec-Fetch-User",
+					"value": "?1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://fwctan.ufsj.edu.br:1003/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9e00d839-c378-d182-77b6-db3635cb6ef2",
+			"data": [
+				{
+					"key": "4Tredir",
+					"value": "http://www.gstatic.com/generate_204"
+				},
+				{
+					"key": "magic",
+					"value": "0681b73699f1e663"
+				},
+				{
+					"key": "password",
+					"value": "Adm110494+"
+				},
+				{
+					"key": "username",
+					"value": "12298737673"
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://fwctan.ufsj.edu.br:1003/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570218419369,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cf834f84-b895-f8ad-f2d2-3d999a0fab95",
+			"headers": "Upgrade-Insecure-Requests: 1\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36\nSec-Fetch-Mode: navigate\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\n",
+			"headerData": [
+				{
+					"key": "Upgrade-Insecure-Requests",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "User-Agent",
+					"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Sec-Fetch-Mode",
+					"value": "navigate",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://fwctan.ufsj.edu.br:1003/fgtauth?0681b73699f1e663",
+			"queryParams": [
+				{
+					"key": "0681b73699f1e663",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9e00d839-c378-d182-77b6-db3635cb6ef2",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://fwctan.ufsj.edu.br:1003/fgtauth?0681b73699f1e663",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570218407351,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e91bb5c7-fb0c-45f1-40be-db9d2a9aff77",
+			"headers": "Upgrade-Insecure-Requests: 1\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36\nSec-Fetch-Mode: navigate\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\n",
+			"headerData": [
+				{
+					"key": "Upgrade-Insecure-Requests",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "User-Agent",
+					"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Sec-Fetch-Mode",
+					"value": "navigate",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://fwctan.ufsj.edu.br:1003/keepalive?06090306090e000b",
+			"queryParams": [
+				{
+					"key": "06090306090e000b",
+					"value": "",
+					"equals": false,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9e00d839-c378-d182-77b6-db3635cb6ef2",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://fwctan.ufsj.edu.br:1003/keepalive?06090306090e000b",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570218413705,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

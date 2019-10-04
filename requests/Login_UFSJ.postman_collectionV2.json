@@ -1,0 +1,272 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Login_UFSJ",
+		"_postman_id": "9e00d839-c378-d182-77b6-db3635cb6ef2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://fwctan.ufsj.edu.br:1003/logout?06090306090e000b",
+			"request": {
+				"url": {
+					"raw": "https://fwctan.ufsj.edu.br:1003/logout?06090306090e000b",
+					"protocol": "https",
+					"host": [
+						"fwctan",
+						"ufsj",
+						"edu",
+						"br"
+					],
+					"port": "1003",
+					"path": [
+						"logout"
+					],
+					"query": [
+						{
+							"key": "06090306090e000b",
+							"value": "",
+							"equals": false,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+						"description": ""
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"description": ""
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://fwctan.ufsj.edu.br:1003/",
+			"request": {
+				"url": "https://fwctan.ufsj.edu.br:1003/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Origin",
+						"value": "https://fwctan.ufsj.edu.br:1003",
+						"description": ""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+						"description": ""
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"description": ""
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "4Tredir",
+							"value": "http://www.gstatic.com/generate_204"
+						},
+						{
+							"key": "magic",
+							"value": "0681b73699f1e663"
+						},
+						{
+							"key": "password",
+							"value": "Adm110494+"
+						},
+						{
+							"key": "username",
+							"value": "12298737673"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://fwctan.ufsj.edu.br:1003/keepalive?06090306090e000b",
+			"request": {
+				"url": {
+					"raw": "https://fwctan.ufsj.edu.br:1003/keepalive?06090306090e000b",
+					"protocol": "https",
+					"host": [
+						"fwctan",
+						"ufsj",
+						"edu",
+						"br"
+					],
+					"port": "1003",
+					"path": [
+						"keepalive"
+					],
+					"query": [
+						{
+							"key": "06090306090e000b",
+							"value": "",
+							"equals": false,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+						"description": ""
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://fwctan.ufsj.edu.br:1003/fgtauth?0681b73699f1e663",
+			"request": {
+				"url": {
+					"raw": "https://fwctan.ufsj.edu.br:1003/fgtauth?0681b73699f1e663",
+					"protocol": "https",
+					"host": [
+						"fwctan",
+						"ufsj",
+						"edu",
+						"br"
+					],
+					"port": "1003",
+					"path": [
+						"fgtauth"
+					],
+					"query": [
+						{
+							"key": "0681b73699f1e663",
+							"value": "",
+							"equals": false,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+						"description": ""
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.gstatic.com/generate_204",
+			"request": {
+				"url": "http://www.gstatic.com/generate_204",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
